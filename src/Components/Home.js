@@ -8,7 +8,7 @@ const Home = ( )=>{
 
     return(
         <div className="Home-page">
-          
+          <h1>Amazon</h1>
             <div className="banner">
                 <img src="./banner.jpg"/>
             </div>
