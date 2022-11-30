@@ -12,6 +12,7 @@ import Signup from './Components/Signup';
 import Navbar from './Components/Navbar';
 import Confirm from './Components/confirm_page';
 import  Products  from './Components/Product';
+import View from './Components/view_list';
 // import Navbar from './Mainfile/Navbar'
 // import Profile from './Mainfile/profile';
 
@@ -32,6 +33,7 @@ function App() {
           <Route path="/signup" element={<Signup/>}/>
           <Route path='/confirm' element={<Confirm/>}/>
           <Route path='/product' element={<Products/>}/>
+          <Route  path='/view' element={<View/>}/>
           
         </Routes>
       </Container>

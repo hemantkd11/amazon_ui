@@ -6,7 +6,7 @@ const Card = ({id,image, price, title,rating})=>{
 const [{basket},dispatch]= useStateValue()
 
 
-         console.log('basket',basket)   
+         
 
 const addToBasket =(e)=>{
                  

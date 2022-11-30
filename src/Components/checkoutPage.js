@@ -6,7 +6,7 @@ import { getBasketTotal } from "../reducer";
 import { useStateValue } from "../context";
 import { useNavigate } from "react-router-dom";
 
-const CheckoutPage =()=>{
+const CheckoutPage =(e)=>{
     const Navigate = useNavigate()
     const [{basket},dispatch] = useStateValue()
 

@@ -1,25 +1,92 @@
-import React from "react";
+import React ,{useEffect ,useState} from "react";
 // import styled from "styled-components";
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
 import Card from "./Card";
 import Footer from "./footer";
+
+
+
 const Home = ( )=>{
- 
+  const [items,setItems] = useState([])
+
+
+   useEffect(() =>{
+    const fetchProduct = async () => {
+        const data = await fetch("/list")
+        setItems(await data.json())
+        console.log("data>>>>",data)
+    }
+    fetchProduct()
+   },[])
+
+
+
 
     return(
         <div className="Home-page">
-          <h1>Amazon</h1>
+          
             <div className="banner">
                 <img src="./banner.jpg"/>
             </div>
             <div className="main">
-                 <Card 
-                 id={1}
-                 image={"https://m.media-amazon.com/images/I/71V3nk2-+GL._AC_SL1500_.jpg"}
-                 rating={4}
-                 price={69999}
-                 title={"OnePlus 10 Pro | 5G Android Smartphone | 8GB+128GB | U.S. Unlocked | Triple Camera co-Developed with Hasselblad | Emerald Forest"}/>
-                
+
+                {items.map((data)=>
+                    <>
+                     <Card 
+                      id={data._id}
+                      image={data.image_url} 
+                      rating={data.rating}
+                      price={data.price}
+                      title={data.title}/>
+                    </>
+                     
+
+                )}
+               
+
+            </div>
+            <Footer/>
+        </div>
+    )
+}
+
+
+export default Home
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/*                 
                  <Card  
                  id={2}
                  image={"https://m.media-amazon.com/images/I/613AbRRTA6L._AC_SL1500_.jpg"}
@@ -40,13 +107,4 @@ const Home = ( )=>{
                  rating={4}
                  price={19999}
                  title={"Pyle Portable Bluetooth PA Speaker System - 600W Rechargeable Outdoor Bluetooth Speaker Portable PA System w/ Dual 8” Subwoofer 1” Tweeter, Microphone In, Party Lights, USB, Radio, Remote - PPHP2835B"}/>
-                 
-
-            </div>
-            <Footer/>
-        </div>
-    )
-}
-
-
-export default Home
+                  */}
