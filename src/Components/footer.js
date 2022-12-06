@@ -3,13 +3,16 @@ import { useNavigate } from "react-router-dom";
 
 const Footer=()=>{
 
-const Navigate = useNavigate()
     return(
         <>
            <div className="footer-Container">
               <div className="footer">
                 <div className="Back-to-top">
-                   <button type="button" onClick={() =>  Navigate("/")}>Back to top</button>
+                   <button type="button" onClick={() => window.scrollTo({  
+                    top: 0,
+                    left: 0,
+                    behavior: 'smooth'
+                })}>Back to top</button>
                 </div>
                 <div className="footer-main">
                     <div className="col">

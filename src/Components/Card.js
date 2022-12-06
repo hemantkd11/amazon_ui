@@ -23,6 +23,7 @@ const addToBasket =(e)=>{
                     rating
                 }
             })
+            
         }
 
 

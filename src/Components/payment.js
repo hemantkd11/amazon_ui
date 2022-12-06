@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Footer from "./footer";
 import Navbar from "./Navbar";
 import CurrencyFormat from "react-currency-format";
+
 import { getBasketTotal } from "../reducer";
 import { useStateValue } from "../context";
 import { useNavigate } from "react-router-dom";
@@ -11,6 +12,11 @@ const Payment =()=>{
     const Navigate = useNavigate()
     const [{address},dispatch] = useStateValue()
     const [{basket}]=useStateValue()
+
+
+
+
+
 
     const RemoveItem =(e,id)=>{
         e.preventDefault()
@@ -43,6 +49,7 @@ const Payment =()=>{
                             <p> {address.phone}</p> 
                          </div>
                         </div>
+                       
                     </div>
                 </div>   
               

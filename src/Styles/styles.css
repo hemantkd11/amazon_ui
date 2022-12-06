@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+button {
+  padding: 4px 16px;
+  border: none;
+  background-color: white;
+  border-radius: 4px;
+  font-size: 12px;
+  box-shadow: 0 0 5px 1px lightgray;
+  border: 1px solid lightgray;
+}
+.flex-container {
+  display: flex;
+}
+.logo-container {
+  height: 40px;
+  padding: 5px 20px 0;
+  cursor: pointer;
+}
+.logo-container img {
+  height: 100%;
+}
+.header-container {
+  height: 60px;
+
+  background-color: rgba(0, 0, 0, 1);
+}
+.flexbox {
+  display: flex;
+  align-items: center;
+}
+.column {
+  flex-direction: column;
+}
+.sub-title {
+  font-size: 11px;
+  color: gray;
+}
+.location-name {
+  font-size: 14px;
+  color: white;
+}
+.location-container {
+  cursor: pointer;
+}
+.location-container:hover {
+  border: 1px solid gray;
+}
+.relative {
+  position: relative;
+}
+.modal-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modalbox {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 60%;
+  display: flex;
+  min-width: 300px;
+  max-width: 450px;
+  background-color: white;
+}
+.h3 {
+  font-size: 18px;
+}
+.modalbox .h3 {
+  padding: 25px 30px;
+  background-color: rgba(0, 0, 0, 0.08);
+  width: 100%;
+}
+.caption {
+  font-size: 14px;
+  color: lightslategray;
+}
+.contentPad {
+  padding: 30px;
+}
+.error {
+  color: red;
+}
+.location-form {
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.language-container {
+  cursor: pointer;
+  margin-left: 5px;
+}
+.language-container:hover {
+  border: 1px solid gray;
+}
+.language {
+  color: White;
+  padding: 8px;
+}
+.language-menu {
+  display: none;
+  position: absolute;
+  top: 40px;
+  background-color: white;
+  min-width: 200px;
+  height: 500px;
+  z-index: 1;
+}
+.language-container:hover .language-menu {
+  display: flex;
+  flex-direction: column;
+
+  padding: 30px;
+}
+
+.sign-in-conatiner {
+  color: white;
+  margin-left: 10px;
+  padding: 10px;
+}
+.sign-in-conatiner:hover {
+  border: 1px solid lightslategray;
+}
+.sign-in-conatiner:hover .Dropdown {
+  display: flex;
+}
+.Dropdown {
+  display: none;
+  position: absolute;
+  top: 55px;
+  right: 5px;
+  background-color: rgb(191, 35, 35);
+  min-width: 200px;
+  height: 500px;
+  z-index: 1;
+
+  text-align: center;
+  justify-content: center;
+}
+.User-name {
+  font-size: 13px;
+}
+.search-conatiner {
+  flex: 1;
+}
+.search-conatiner input {
+  width: 100%;
+}

@@ -20,12 +20,23 @@ const Home = ( )=>{
    },[])
 
 
-
+//    let box = document.querySelector(".image-container");
+//     const btnPrivious =()=>{
+//     let width = box.clientWidth
+//     box.scrollLeft = box.scrollLeft - width; 
+    
+// }
+//     const btnNext=() =>{
+//     let width = box.clientWidth
+//     box.scrollLeft = box.scrollLeft + width;
+//}
 
     return(
         <div className="Home-page">
           
             <div className="banner">
+            {/* <button className="lessthen" onClick={btnPrivious}><p>&lt;</p></button>
+            <button className="greaterthen" onClick={btnNext}><p>&gt;</p></button> */}
                 <img src="./banner.jpg"/>
             </div>
             <div className="main">
