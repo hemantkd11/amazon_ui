@@ -43,6 +43,7 @@ const Home = ( )=>{
 
                 {items.map((data)=>
                     <>
+                    hello
                      <Card 
                       id={data._id}
                       image={data.image_url} 
