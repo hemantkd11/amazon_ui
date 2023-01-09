@@ -31,7 +31,7 @@ const addProduct = async (e) => {
             'Accept':'application/json',
             'Content-Type':'application/json'
         },
-        body:JSON.stringify({image_url , price , rating , title})
+        body:JSON.stringify(product)
     })
     const data = await res.json()
     console.log(data)

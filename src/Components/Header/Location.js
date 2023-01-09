@@ -48,6 +48,7 @@ const LocationModal = ({
     } else {
       setError(addrs[0].Message);
     }
+   
   };
   return open ? (
     <div className="modal-container" onClick={onClose}>
@@ -69,7 +70,7 @@ const LocationModal = ({
             <div className="flex-container column">
               <input
                 type="text"
-                onChange={(e) => setPincode(e.target.value)}
+                onChange={(e) =>(e.target.value)}
                 value={pincode}
               />
               <div className="error">{error}</div>

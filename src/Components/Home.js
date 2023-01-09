@@ -1,8 +1,5 @@
 import React ,{useEffect ,useState} from "react";
-// import styled from "styled-components";
-// import Navbar from "./Navbar";
 import Card from "./Card";
-import Footer from "./footer";
 
 
 
@@ -43,7 +40,7 @@ const Home = ( )=>{
 
                 {items.map((data)=>
                     <>
-                    hello
+                  
                      <Card 
                       id={data._id}
                       image={data.image_url} 
@@ -57,7 +54,7 @@ const Home = ( )=>{
                
 
             </div>
-            <Footer/>
+        
         </div>
     )
 }

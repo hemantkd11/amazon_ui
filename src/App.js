@@ -9,7 +9,7 @@ import Login from './Components/Login';
 import OrderPage from './Mainfile/orderpage';
 import Payment from './Components/payment';
 import Signup from './Components/Signup';
-import Navbar from './Components/Navbar';
+import Navbars from './Mainfile/Navbar';
 import Confirm from './Components/confirm_page';
 import  Products  from './Components/Product';
 import View from './Components/view_list';
@@ -23,8 +23,9 @@ function App() {
   return(
     <Router> 
       <Container>
-        <Navbar/>
+        <Navbars/>
         <Routes>
+         
           <Route path='/' element={<Home/>}/>
           <Route path="/login" element={<Login/>}/>
           <Route path="/address" element={<Address/>}/>

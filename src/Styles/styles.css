@@ -45,6 +45,8 @@ button {
 }
 .location-container {
   cursor: pointer;
+  margin: 0 10px 0 10px;
+  padding: 0;
 }
 .location-container:hover {
   border: 1px solid gray;
@@ -124,11 +126,16 @@ button {
 
 .sign-in-conatiner {
   color: white;
-  margin-left: 10px;
-  padding: 10px;
+  margin: 0 10px 0 10px;
+  padding:0;
 }
+
 .sign-in-conatiner:hover {
   border: 1px solid lightslategray;
+}
+.sign-in_and_more{
+  font-size: 15px;
+  font-weight: 700;
 }
 .sign-in-conatiner:hover .Dropdown {
   display: flex;
@@ -147,11 +154,19 @@ button {
   justify-content: center;
 }
 .User-name {
-  font-size: 13px;
+  font-size: 11px;
 }
+
 .search-conatiner {
   flex: 1;
 }
 .search-conatiner input {
   width: 100%;
+}
+.cart{
+  color: aliceblue;
+
+}
+.basket-Btn{
+  margin-right: 10px;
 }

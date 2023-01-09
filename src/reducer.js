@@ -41,7 +41,7 @@ const reducer = (state=initialState,action)=>{
                      ...state,
                      basket: newBasket
                 }
-                case "Set_address":
+            case "Set_address":
                     return {
                      ...state,
                      address:{...action.items}

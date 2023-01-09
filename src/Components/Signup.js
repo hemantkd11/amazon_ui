@@ -1,7 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import Navbar from "./Navbar";
-import Footer from "./footer"
+
 
 const Signup = ( )=>{
     const Navigate = useNavigate()
@@ -51,7 +50,7 @@ const Signup = ( )=>{
         </div>
         
     </div>
-    <Footer/>
+ 
     </>
     )
 }

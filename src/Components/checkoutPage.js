@@ -1,6 +1,4 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Footer from "./footer";
 import CurrencyFormat from "react-currency-format";
 import { getBasketTotal } from "../reducer";
 import { useStateValue } from "../context";
@@ -19,9 +17,8 @@ const CheckoutPage =(e)=>{
         id:id
     })
    }
-
-
-    console.log('checkout>>>>',basket)
+ console.log('checkout>>>>',basket)
+ 
     return(
         <div className="checkOut-container">
            
@@ -67,7 +64,7 @@ const CheckoutPage =(e)=>{
                        <button className="subtotal-btn" onClick={()=>Navigate("/address")}>Proceed to checkout</button>
                 </div>
              </div>
-             <Footer/>
+         
         </div>
 
     )
