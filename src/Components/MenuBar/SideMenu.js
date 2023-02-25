@@ -1,5 +1,6 @@
 import React  from "react";
 import { AppBar , Box } from "@material-ui/core";
+import { fontSize } from "@mui/system";
 
 const SideMenu =()=>{
 return (
@@ -11,16 +12,17 @@ return (
                     border:"1px solid white",
                     boxSizing:"border-box",
                     padding:"4px",
+                    fontSize:'12px'
 
                 },
                 padding:"5px",
                 boxSizing:"border-box",
-                margin:" 0 5px  0 5px "
-                
+                margin:" 0 5px  0 5px ",
+                fontSize:'1vw'
 
             }
         }>
-          All
+       All
         </Box >
         <Box sx={
             {
@@ -28,10 +30,12 @@ return (
                     border:"1px solid white",
                     boxSizing:"border-box",
                     padding:"4px",
+                    fontSize:'12px'
                 },
                 padding:"5px",
                 boxSizing:"border-box",
-                margin:" 0 5px  0 5px "
+                margin:" 0 5px  0 5px ",
+                fontSize:'1vmax'
             }
         }>
           Sell
@@ -42,9 +46,11 @@ return (
                     border:"1px solid white",
                     boxSizing:"border-box",
                     padding:"4px",
+                    fontSize:'12px'
                 },
                 padding:"5px",
-                margin:" 0 5px  0 5px "
+                margin:" 0 5px  0 5px ",
+                fontSize:'1vw'
             }
         }>
           Best Sellers
@@ -54,10 +60,12 @@ return (
                 border:"none ","&:hover":{
                     border:"1px solid white",
                     boxSizing:"border-box",
-                    padding:"4px"
+                    padding:"4px",
+                    fontSize:'12px'
                 },
                 padding:"5px",
-                margin:" 0 5px  0 5px "
+                margin:" 0 5px  0 5px ",
+                fontSize:'1vw'
             }
         } >
           Mobile
@@ -67,10 +75,13 @@ return (
                 border:"none ","&:hover":{
                     border:"1px solid white",
                     boxSizing:"border-box",
-                    padding:"4px"
+                    padding:"4px",
+                    fontSize:'12px'
+
                 },
                 padding:"5px",
-                margin:" 0 5px  0 5px "
+                margin:" 0 5px  0 5px ",
+                fontSize:'1vw'
             }
         }>
           Today's Deals
@@ -79,12 +90,13 @@ return (
             {
                 border:"none ","&:hover":{
                     border:"1px solid white",
-                    boxSizing:"border-box"
-                    ,
-                    padding:"4px"
+                    boxSizing:"border-box",
+                    padding:"4px",
+                    fontSize:'1vw'
                 },
                 padding:"5px",
-                margin:" 0 5px  0 5px "
+                margin:" 0 5px  0 5px ",
+                fontSize:'1vw'
                 
             }
         } >
@@ -95,10 +107,13 @@ return (
                 border:"none ","&:hover":{
                     border:"1px solid white",
                     boxSizing:"border-box",
-                    padding:"4px"
+                    padding:"4px",
+                    fontSize:'1vw'
                 },
                 padding:"5px",
-                margin:" 0 5px  0 5px "
+                margin:" 0 5px  0 5px ",
+                fontSize:'1vw',
+       
             }
         }>
           Electronics

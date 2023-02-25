@@ -7,7 +7,7 @@ const Navbars =()=>{
   return (
     <>
    <nav className='navbar'>
-    <h3 className='logo'>REACT_APP</h3>
+    <div className='logo'><img src="./amazon-smile.png"/></div>
     <ul className={isMobile ? "nav-link-mobile" : "nav-link"}
     onClick={()=> setIsMobile(false)}>
       <li className='home'><a href='https://www.youtube.com/watch?v=3ncFpP8GP4g'>Home</a></li>

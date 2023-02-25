@@ -25,12 +25,12 @@ button {
 }
 .header-container {
   height: 60px;
-
   background-color: rgba(0, 0, 0, 1);
 }
 .flexbox {
   display: flex;
   align-items: center;
+
 }
 .column {
   flex-direction: column;
@@ -149,7 +149,6 @@ button {
   min-width: 200px;
   height: 500px;
   z-index: 1;
-
   text-align: center;
   justify-content: center;
 }
@@ -169,4 +168,9 @@ button {
 }
 .basket-Btn{
   margin-right: 10px;
+}
+
+.downbar{
+  height: 35px;
+  
 }

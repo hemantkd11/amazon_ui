@@ -41,7 +41,7 @@
   justify-content: space-between;
   align-items: center;
   height: 50px;
-  background-color: aqua;
+  background-color: rgb(221, 224, 224);
   color: white;
   padding: 10px;
   box-sizing: border-box;
@@ -71,7 +71,7 @@ a{
 .signup{
   border: 1px solid;
   position: relative;
-  color: yellow;
+  color: rgb(0, 81, 255);
   border-radius: 10px;
 }
 .mobile-menu-icon{
@@ -405,11 +405,9 @@ cursor: pointer;
   place-items: center;
   width: 100%;
   grid-auto-rows: auto;
-  grid-template-columns: repeat(4,320px);
+  grid-template-columns: repeat(4,350px);
   grid-gap: 20px;
   border: none;
-  
-
 
 }
 
@@ -430,7 +428,7 @@ cursor: pointer;
 }
 .card{
   width: 100%;
-  height: auto;
+  height:auto;
   display: flex;
   flex-direction: column;
   background-color: #fff;
@@ -441,6 +439,7 @@ cursor: pointer;
 
 .image{
   width: 100%;
+  height: 210px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -450,14 +449,20 @@ cursor: pointer;
   width: 180px;
   height: 200px;
 }
+.details{
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .details h3{
-  height: auto;
-  font-size: 15px;
+  font-size: 12px;
   margin: 5px;
 }
 .card-btn{
   width: 100%;
   display: flex;
+  height: 50px;
   flex-direction: column;
   align-items: center;
   justify-content: center;

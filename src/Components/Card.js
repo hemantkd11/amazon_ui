@@ -33,8 +33,7 @@ const addToBasket =(e)=>{
     return(
         <div className="card">
             <div className="image">
-                <img src={image}/>
-                
+                <img src={image}/>               
             </div>
             <div className="details">
                 <h3>
