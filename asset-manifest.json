@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/amazon_ui/static/css/main.6aef3ab2.css",
-    "main.js": "/amazon_ui/static/js/main.97593fab.js",
-    "static/js/787.eb6db51a.chunk.js": "/amazon_ui/static/js/787.eb6db51a.chunk.js",
-    "index.html": "/amazon_ui/index.html",
-    "main.6aef3ab2.css.map": "/amazon_ui/static/css/main.6aef3ab2.css.map",
-    "main.97593fab.js.map": "/amazon_ui/static/js/main.97593fab.js.map",
-    "787.eb6db51a.chunk.js.map": "/amazon_ui/static/js/787.eb6db51a.chunk.js.map"
+    "main.css": "/static/css/main.a7e1273c.css",
+    "main.js": "/static/js/main.ca1a5815.js",
+    "static/js/488.21227919.chunk.js": "/static/js/488.21227919.chunk.js",
+    "index.html": "/index.html",
+    "main.a7e1273c.css.map": "/static/css/main.a7e1273c.css.map",
+    "main.ca1a5815.js.map": "/static/js/main.ca1a5815.js.map",
+    "488.21227919.chunk.js.map": "/static/js/488.21227919.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6aef3ab2.css",
-    "static/js/main.97593fab.js"
+    "static/css/main.a7e1273c.css",
+    "static/js/main.ca1a5815.js"
   ]
 }
